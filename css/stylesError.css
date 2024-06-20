@@ -1,0 +1,40 @@
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#btn-cotacao {
+    height: 20px;
+    width: 80px;
+    border: 1px solid transparent;
+    padding: 1rem;
+    padding-top: .3rem;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #463da8;
+    cursor: pointer;
+    transition: 0.25s;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 670px;
+}
+
+#btn-cotacao{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#btn-cotacao:hover {
+    border: 3px solid #fff;
+    font-weight: bold;
+    border-color: #301b74;
+    background-color: #fff;
+    color: #301b74;
+}

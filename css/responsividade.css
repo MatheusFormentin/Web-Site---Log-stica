@@ -1,0 +1,134 @@
+/* Estilos para tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1024px;
+    }
+
+    .container {
+        max-width: 1024px;
+    }
+
+    header {
+        width: 100vh;
+    }
+    
+
+    nav ul{
+        margin-left: 250px;
+    }
+
+    .image-frota {
+        max-width: 500px;
+        border-radius: 0;
+    }
+    .text-apresentation h4{
+        font-size: 2.7rem;
+    }
+
+    .text-apresentation p{
+        padding: .5rem;
+        height: 320px;
+        margin-left: 20px;
+        text-align: center;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+
+    #container-img{
+        width: 1024px;
+    }
+
+    #btn-cotacao{
+        margin-top: 10px;
+        margin-left: 270px;
+    }
+
+    .mov-button{
+        margin-left: 800px;
+    }
+
+    .img-control{
+        max-width: 1024px;
+        margin-left: 0px;
+    }
+
+    .estatistica{
+        max-width: 1024px;
+        margin-left: 0px;
+    }
+
+    .estatistica-texto{
+        margin-left: 30px;
+    }
+
+    .world, .toneladas, .aviao{
+        max-width: 250px;
+    }
+
+    .aviao {
+        margin-left: 20px;
+    }
+
+    .estatistica-numero{
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+
+    .container-inovacoes{
+        max-width: 1024px;
+    }
+
+    .inovacoes-text h2,
+    .inovacoes-text p{
+        margin-left: 20px;
+        max-width: 400px;
+    }
+
+    .inovacoes-text .icon{
+        max-width: 100px;
+    }
+
+    .inovacoes-image img{
+        max-width: 460px;
+    }
+
+    .icon i{
+        margin-left: 20px;
+    }
+
+    .capa{
+        height: 350px;
+    }
+
+    .rodape{
+        height: 350px;
+    }
+
+    .fim-rodape h4,
+    .fim-rodape h5{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .fim-rodape h5{
+        margin-right: 150px;
+    }
+
+    .rodape-informacoes{
+        height: 300px;
+    }
+
+    .contato {
+        margin-left: 10px;
+    }
+
+    .novidades{
+        margin-left: 20px;
+    }
+
+    /* sobre */
+}
+

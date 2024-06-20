@@ -1,0 +1,506 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+#navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+}
+
+#nav{
+    margin-left: 25%;
+    height: 100%;
+}
+
+#logo {
+    position: relative; 
+    display: flex;
+}
+
+#logo img{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 65px;
+    height: 55px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+nav li{
+    padding-left: 2rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: #301b74;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: 0.4s;
+}
+
+nav a:hover{
+    color: #fff;
+    font-weight: bold;
+    -webkit-text-stroke-color: #301b74;
+    -webkit-text-stroke-width: 1px;
+}
+
+#fale-conosco {
+    display: flex;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(2, 80, 2);
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 1200px;    
+    margin-top: -70px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#fale-conosco i{
+    margin-top: 7px;
+    font-size: 1.5rem;
+    border-right: 2px solid #000;
+    padding-right: 10px;
+}
+
+#fale-conosco p{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 60px;
+    color: #fff;
+}   
+
+#fale-conosco a{
+    text-decoration: none;
+    font-style: normal;
+}
+
+#fale-conosco:hover,
+#btn-whats:hover, 
+#btn-whats:hover > p,
+#btn-whats:hover > i{
+    background-color: #fff;
+    color: rgb(2, 80, 2);
+}
+
+#fale-conosco:hover {
+    border: 2px solid rgb(2, 80, 2);
+}
+
+    
+/* Banner */
+.banner {
+    background-image: url("../img/2151468815.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+}
+
+.banner-sobreposicao h2{
+    color: #fff;
+    font-size: 3.5rem;
+    margin-left: 100px;
+    padding-top: 70px;
+}
+
+.banner-sobreposicao p{
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: Arial, sans-serif;
+    margin-left: 130px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.banner-sobreposicao a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Main */
+
+.text-container{
+    display: flex;
+}
+
+.text-shadow {
+    width: 60%;
+    height: 500px;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.whats img {
+    width: 60px;
+    height: 60px;
+}
+
+.whats h5{
+    font-size: 1.8rem;
+    color: #301b74;
+}
+
+.whats p{
+    color: #000;
+    font-weight: bold;
+}
+
+.whats {
+    display: flex;
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.text-whats {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-whats h5{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.text-whats p {
+    margin-left: 10px;
+    width: 300px;
+}
+
+.text-shadow h6{
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #5b0101;
+}
+
+.text-shadow h3{
+    font-size: 3rem;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+.text-shadow p{
+    color: #444;
+    margin-left: 20px;
+}
+
+
+/* form */
+
+.form-container{
+    min-width: 600px;
+    height: 350px;
+    background-color: #cac9c9;
+    margin-top: 80px;
+    margin-right: 150px;
+    margin-left: -200px;
+}
+
+.form-control {
+    position: relative;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+    position: absolute;
+    width: 250px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #555;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+}
+
+.form-container select option {
+    color: #555;
+}
+
+#name{
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+#email {
+    margin-left: 320px;
+    margin-top: 25px;
+}
+
+#phone {
+    margin-left: 30px;
+    margin-top: 85px;
+}
+
+#services {
+    margin-left: 320px;
+    margin-top: 85px;
+}
+
+#description {
+    margin-left: 30px;
+    margin-top: 145px;
+    width: 540px;
+    height: 100px;
+}
+
+#btn-form{
+    height: 50px;
+    width: 540px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 1em 1.5em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #463da8;
+    cursor: pointer;
+    transition: 0.25s;
+    margin-left: 30px;
+    margin-top: 270px;
+
+}
+
+#btn-form{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#btn-form:hover {
+    border: 3px solid #fff;
+    font-weight: bold;
+    border-color: #301b74;
+    background-color: #fff;
+    color: #301b74;
+}
+#btn-form:focus,
+#btn-form:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* footer */
+.rodape{
+    background-color: #0b012c;
+    width: 100%;
+    height: 350px;
+}
+
+footer{
+    width: 100%;
+    max-height: 350px;
+    background-image: url("../img/893780_O9FG4R0-removebg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.capa {
+    background-color: rgba(5, 5, 5, 0.5);
+    width: 100%;
+    height: 350px;
+}
+
+.rodape-informacoes{
+    display: flex;
+    width: 100%;
+    height: 250px; 
+    border-bottom: 1px solid #fff;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.contato h3{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 13px;
+    margin-bottom: 20px;
+}
+
+.contato p{
+    color: #fff;
+    margin-bottom: 7px;
+}
+
+i{
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.emojis a{
+    margin-left: -15px;
+}
+
+.emojis i{
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 6px;   
+    cursor: pointer;
+    transition: .4s;
+}
+
+.emojis i:hover{
+    background-color: #fff;
+    color: #301b74;
+}
+
+.navegacao{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+.navegacao h3{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.navegacao ul{
+    margin-left: 17px;
+}
+
+.navegacao li,
+.navegacao a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.navegacao li:hover,
+.navegacao a:hover{
+    font-size: 1.2rem;
+}
+
+.acesso-rapido{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+.acesso-rapido h3{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.acesso-rapido ul{
+    margin-left: 17px;
+}
+
+.acesso-rapido li,
+.acesso-rapido a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.acesso-rapido li:hover,
+.acesso-rapido a:hover{
+    font-size: 1.2rem;
+}
+
+
+.novidades {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.novidades h3{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.novidades p{
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.novidades input{
+    height: 40px;
+    font-size: 1.2rem;
+}
+.novidades input::placeholder{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#increva-se {
+    margin-top: 10px;
+    height: 30px;
+    border: 1px solid transparent;
+    font-size: 1em;
+    font-family: inherit;
+    background-color: #463da8;
+    cursor: pointer;
+    transition: 0.25s;
+    color: #fff;
+    font-weight: bold;
+}
+
+#increva-se:hover {
+    border: 3px solid #fff;
+    font-weight: bold;
+    border-color: #301b74;
+    background-color: #fff;
+    color: #301b74;
+}
+
+.fim-rodape{
+    display: flex;  
+}
+
+.fim-rodape h5{
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #fff;
+    width: 500px;
+    font-weight: normal;
+    margin-left: 100px;
+}
+
+.fim-rodape h4{
+    margin-top: 20px;
+    margin-left: 500px;
+    color: #fff;
+    font-weight: normal;
+}
