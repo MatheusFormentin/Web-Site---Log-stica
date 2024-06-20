@@ -8,8 +8,10 @@ Tecnologias e Ferramentas
 O site foi construído utilizando uma variedade de tecnologias e ferramentas modernas, destacando minha experiência e versatilidade no desenvolvimento web:
 
 HTML & CSS: Estruturação e estilização responsiva do site.
+
 JavaScript: Utilizado para criar interatividade e funcionalidades dinâmicas.
-Características do Site
+
+
 Design e Usabilidade
 Design Responsivo: Totalmente adaptável a diferentes tamanhos de tela, garantindo uma experiência de usuário consistente em dispositivos desktops (com exceção de celulares).
 
@@ -17,7 +19,11 @@ Contribuições e Contato
 Estou aberto a colaborações e feedback. Se você tiver sugestões ou quiser discutir possíveis projetos, por favor, entre em contato comigo:
 
 Site: Th Logística
+
 Email: formentinmatheus@gmail.com
+
 LinkedIn: Matheus Formentin
+
 WhatsApp: (51) 991052719
+
 Obrigado por visitar meu portfólio!
